@@ -1,225 +1,319 @@
-<div align="center">
+# 🚀 InsightFlow – Real-Time Collaborative Workspace
 
-# 🚀 InsightFlow
-### Real-Time Collaborative Workspace for Modern Teams
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/TailwindCSS-4.0-38BDF8?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Firebase-Authentication-orange?style=for-the-badge&logo=firebase" />
+  <img src="https://img.shields.io/badge/Gemini-AI-blueviolet?style=for-the-badge&logo=google" />
+  <img src="https://img.shields.io/badge/Liveblocks-Real--Time-success?style=for-the-badge" />
+</p>
 
-Collaborate in real time, organize ideas visually, and boost productivity with AI-powered assistance.
-
-[Live Demo](https://your-demo-link.com) • [Report Bug](https://github.com/yourusername/insightflow/issues) • [Request Feature](https://github.com/yourusername/insightflow/issues)
-
-</div>
-
----
-
-## 📖 Overview
-
-InsightFlow is a modern collaborative workspace inspired by tools like Notion and Miro, enabling multiple users to edit documents simultaneously while communicating through live cursors, comments, and AI-assisted content generation.
-
-Built with scalability and developer experience in mind, InsightFlow combines real-time collaboration, secure authentication, and intelligent productivity features into one seamless platform.
+<p align="center">
+A modern AI-powered collaborative workspace enabling teams to create, edit, organize, and collaborate on documents in real time with intelligent writing assistance and seamless synchronization.
+</p>
 
 ---
 
-## ✨ Features
+# 🌐 Live Demo
 
-### 🤝 Real-Time Collaboration
+### 🚀 https://insight-flow--jahanvibagjani7.replit.app
 
-- Multi-user collaborative editing
-- Live cursors and presence indicators
+---
+
+# 📖 Overview
+
+InsightFlow is a next-generation collaborative workspace designed for teams and individuals who need seamless document collaboration enhanced with AI.
+
+Unlike traditional editors, InsightFlow combines:
+
+- 📝 Real-time collaborative editing
+- 🤖 AI writing assistance powered by Gemini
+- 👥 Live presence indicators
+- ⚡ Instant synchronization
+- 🔒 Secure authentication
+- 📂 Workspace organization
+
+to create a modern productivity platform.
+
+---
+
+# ✨ Features
+
+## 🤝 Real-Time Collaboration
+
+- Multi-user editing
+- Live cursors
+- Presence indicators
 - Instant synchronization
-- Conflict-free updates
-- Collaborative document editing
-
-### 📝 Rich Document Editor
-
-- Rich text formatting
-- Markdown support
-- Auto-save
-- Document version history
-- Drag-and-drop organization
-
-### 🤖 AI Assistant
-
-- Generate content instantly
-- Improve writing quality
-- Summarize documents
-- Brainstorm ideas
-- Rewrite selected text
-
-### 💬 Collaboration Tools
-
-- Threaded comments
-- Mentions (@user)
-- Notifications
-- Activity timeline
+- Conflict-free editing
 - Shared workspaces
 
-### 🔐 Authentication & Security
+---
 
-- Secure user authentication
-- Protected routes
-- Workspace permissions
-- Role-based access
-- Secure API endpoints
+## 🤖 AI Writing Assistant
 
-### 📊 Dashboard
+Powered by Gemini API.
 
+Supports:
+
+- Content generation
+- Grammar correction
+- Text rewriting
+- Summarization
+- Tone improvement
+- Brainstorming ideas
+- Continue writing
+- Expand paragraphs
+
+---
+
+## 📂 Workspace Management
+
+- Create documents
+- Delete documents
+- Rename documents
+- Organize workspace
+- Search documents
 - Recent documents
-- Workspace management
-- Search functionality
-- Document filtering
-- Responsive design
 
 ---
 
-## 🛠 Tech Stack
+## 🔐 Authentication
 
-| Category | Technologies |
-|----------|--------------|
-| Frontend | Next.js 15, React, TypeScript |
-| Styling | Tailwind CSS, Shadcn UI |
-| Backend | Next.js Server Actions |
-| Database | PostgreSQL |
-| ORM | Prisma |
-| Authentication | Clerk |
-| Realtime | Liveblocks |
-| AI | Gemini API |
-| Deployment | Render / Vercel |
-| Version Control | Git & GitHub |
+- Firebase Authentication
+- Secure login
+- User sessions
+- Protected routes
 
 ---
 
-## 🏗 Architecture
+## 🎨 Beautiful UI
 
-```
-                Client (Next.js)
-
-                      │
-
-      ┌───────────────┼───────────────┐
-      │               │               │
-
- Liveblocks      Clerk Auth      Gemini API
-
-      │               │               │
-
-      └───────────────┼───────────────┘
-                      │
-
-              Next.js Backend
-
-                      │
-
-                 PostgreSQL
-```
+- Responsive Design
+- Dark Mode
+- Modern Dashboard
+- Smooth Animations
+- Mobile Friendly
 
 ---
 
-## 📂 Project Structure
+# 🛠 Tech Stack
+
+## Frontend
+
+- Next.js 15
+- React
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
+- Framer Motion
+
+## Backend
+
+- Firebase
+- Firestore
+- Firebase Authentication
+
+## AI
+
+- Gemini API
+
+## Real-Time
+
+- Liveblocks
+
+## Deployment
+
+- Replit
+
+---
+
+# 📂 Folder Structure
 
 ```
-InsightFlow/
-
+src/
+│
 ├── app/
 ├── components/
-├── lib/
-├── actions/
 ├── hooks/
-├── prisma/
-├── public/
+├── lib/
+├── services/
+├── providers/
+├── context/
 ├── styles/
-├── types/
-├── utils/
-└── README.md
+└── types/
 ```
 
 ---
 
 
----
 
-## 🚀 Future Improvements
+# 📸 Screens
 
-- Whiteboard collaboration
-- Video meetings
-- File uploads
-- Kanban boards
-- Calendar integration
-- AI meeting notes
-- Offline support
-- Workspace analytics
+- Landing Page
+- Authentication
+- Dashboard
+- Document Editor
+- AI Assistant
+- Collaborative Workspace
 
 ---
 
+# ⚙️ AI Workflow
+
+```text
+User Prompt
+      │
+      ▼
+Gemini API
+      │
+      ▼
+AI Response
+      │
+      ▼
+Editor
+```
 
 ---
 
-## 📈 Performance Goals
+# 🤝 Collaboration Flow
 
-- ⚡ Fast page load
-- 🔄 Low-latency real-time sync
-- 📱 Fully responsive
-- ♿ Accessibility-first design
+```text
+User A
+      │
+      ▼
+Liveblocks
+      ▲
+      │
+User B
+
+      │
+
+Shared Document
+```
+
+---
+
+# 🔥 Highlights
+
+- AI-powered writing
+- Real-time collaboration
+- Firebase Authentication
+- Secure cloud storage
+- Responsive UI
+- Modern architecture
+- Modular codebase
+- Production-ready design
+
+---
+
+# 💻 Future Improvements
+
+- Voice collaboration
+- AI meeting summaries
+- Version history
+- Team analytics
+- Export to PDF
+- Offline editing
+- AI templates
+- Comments & mentions
+
+---
+
+# 📊 Project Architecture
+
+```
+Frontend (Next.js)
+        │
+        ▼
+Firebase Authentication
+        │
+        ▼
+Firestore Database
+        │
+        ▼
+Gemini API
+        │
+        ▼
+Liveblocks
+```
+
+---
+
+# 🚀 Performance
+
+- ⚡ Fast page loading
+- 📱 Mobile responsive
 - 🔒 Secure authentication
+- ☁ Cloud database
+- 🤖 AI-powered assistance
+- 🔄 Real-time synchronization
 
 ---
 
-## 💡 Why InsightFlow?
+# 🎯 Use Cases
 
-Modern teams need more than just a document editor—they need a collaborative workspace that combines communication, AI assistance, and real-time editing into one intuitive experience.
-
-InsightFlow delivers a scalable architecture that demonstrates expertise in full-stack development, real-time systems, authentication, database design, and AI integration.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a feature branch
-
-```bash
-git checkout -b feature/amazing-feature
-```
-
-3. Commit changes
-
-```bash
-git commit -m "Add amazing feature"
-```
-
-4. Push
-
-```bash
-git push origin feature/amazing-feature
-```
-
-5. Open a Pull Request
+- Team Collaboration
+- Technical Documentation
+- Project Planning
+- Brainstorming
+- Meeting Notes
+- Research
+- Knowledge Base
+- Content Writing
 
 ---
 
-## 📄 License
+# 🧪 Built With
 
-Distributed under the MIT License.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Firebase
+- Firestore
+- Liveblocks
+- Gemini API
+- Shadcn UI
+- Framer Motion
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 **Jahanvi Bagjani**
 
-B.Tech Information Technology '27
+B.Tech Information Technology
 
-Full Stack Developer | MERN | Next.js | TypeScript | PostgreSQL | AWS | DSA
+Full Stack Developer
 
-GitHub: https://github.com/JAHANVI88
-
-LinkedIn: https://linkedin.com/in/jahanvi-bagjani-400390314
+AI Enthusiast
 
 ---
 
-<div align="center">
+# ⭐ Support
 
-⭐ If you found this project useful, consider giving it a star!
+If you found this project useful,
 
-</div>
+⭐ Star the repository
+
+🍴 Fork the repository
+
+🐛 Open an issue
+
+💡 Share your feedback
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+<p align="center">
+
+Made with ❤️ using Next.js, Firebase, Gemini AI & Liveblocks.
+
+</p>
